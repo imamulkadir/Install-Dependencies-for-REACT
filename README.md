@@ -5,8 +5,9 @@
 `npm install -D prettier prettier-plugin-tailwindcss tailwindcss postcss autoprefixer @tailwindcss/vite@latest`
 
 in root/
+.prettierrc
 
-```.prettierrc
+```
 {
 "plugins": ["prettier-plugin-tailwindcss"]
 }
