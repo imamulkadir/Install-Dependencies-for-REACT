@@ -1,8 +1,15 @@
 # Mega Install
 
-`npm install tailwindcss @tailwindcss/vite react-router-dom localforage match-sorter sort-by daisyui@latest`
+```npm install tailwindcss @tailwindcss/vite react-router-dom localforage match-sorter sort-by daisyui@latest```
 
-`npm install -D prettier prettier-plugin-tailwindcss tailwindcss postcss autoprefixer @tailwindcss/vite@latest`
+```npm install -D prettier prettier-plugin-tailwindcss tailwindcss postcss autoprefixer @tailwindcss/vite@latest```
+
+```
+import tailwindcss from '@tailwindcss/vite'
+```
+```
+tailwindcss(),
+```
 
 in root/
 .prettierrc
